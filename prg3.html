@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(204, 255, 255);
+        }
+        h1 {
+            color: Blue;
+            font-family: verdana;
+            font-size: 200%;
+            border: 2px solid powderblue;
+        }
+
+        p {
+            color: red;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 150%;
+        }
+
+        select {
+            background-color:rgb(179, 179, 179);
+            padding: 10px;
+            position: relative;
+            font-family: Arial;
+        }
+        
+        input {
+            background-color: rgb(153, 255, 102);
+            color: Black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+    </style>
+    <title>Project 1 Question 3</title>
+</head>
+<body>
+
+    <form action="prg3.py" method="GET">
+        <fieldset>
+            <h1>Enter the project filename in the textbox below:</h1>
+
+        <p>Filename: 
+            <select name="fname">
+                <option>file1.csv</option>
+                <option>file2.csv</option>
+            </select>
+        </p>
+
+        <input type="submit" value="Submit file"/>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
